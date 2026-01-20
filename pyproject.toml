@@ -1,0 +1,19 @@
+[project]
+name = "golmanager-panel"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "mriojas", email = "48217522+misaelriojasftf@users.noreply.github.com"},
+]
+dependencies = [
+    "mysqlclient>=2.2.7", 
+    "python-dotenv>=1.2.1", 
+    "django==3.2.25",
+]
+requires-python = ">=3.11,<3.13"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
